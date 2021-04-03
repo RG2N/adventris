@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="./css/main.css">
 <title></title>
 <script
     src="https://code.jquery.com/jquery-3.3.1.js"
@@ -15,7 +16,32 @@ $(function(){
 </head>
 <body>
 <div id="header"></div>
-<!--Remaining section-->
+<h1 class="SignupTitle">
+        Sign up for Adventris
+    </h1>
+
+    <div>
+        <div data-bind="text: name" class="cls"></div>
+        <input name="deneme" id="email" type="text" value="Email" />
+    </div>
+
+    &nbsp;
+
+    <div>
+        <div data-bind="text: name" class="cls"></div>
+        <input name="deneme" id="username" type="text" value="Username" />
+    </div>
+
+    &nbsp;
+
+    <div>
+        <div data-bind="text: name" class="cls"></div>
+        <input name="deneme" id="password" type="text" value="Password" />
+    </div>
+
+    &nbsp;
+
+    <button class="signupbutton">Sign Up</button>
 <div id="footer"></div>
 </body>
 </html>
