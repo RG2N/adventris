@@ -2,7 +2,6 @@
     background-color: #606060;
 }
 
-
 .center {
     display: block;
     margin-left: auto;
@@ -38,7 +37,7 @@
 }
 
 .html {
-    width: 59%;
+    width: 3%;
 }
 
 .progresses {
@@ -46,4 +45,49 @@
     font-family: 'Trebuchet MS', sans-serif;
     color: #68b9fb;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.LoginTitle {
+    text-align: center;
+    color: #68b9fb;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#username,
+.username {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #68b9fb;
+    color: white;
+    padding: 1%;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#password,
+.password {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #68b9fb;
+    color: white;
+    padding: 1%;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.loginbutton {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #68b9fb;
+    color: white;
+    padding: 1%;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
 }
