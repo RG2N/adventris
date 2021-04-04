@@ -1,167 +1,104 @@
-.center {
+.topnav {
+    background-color: #031545;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px black;
+  }
+  
+  .topnav a {
+    text-shadow: 0px 0px 12px black;
+    float: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.devmessage {
+    color: #f2f2f2;
     text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #68b9fb;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.container {
-    background-color: rgb(192, 192, 192);
-    width: 80%;
-    border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.roadmap {
-    background-color: #68b9fb;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Permanent Marker', serif;
+  }
+  
+  .topnav a:hover {
+    border-bottom-color: white;
+    border-bottom-style: solid;
     color: white;
-    padding: 1%;
-    text-align: right;
-    font-size: 20px;
-    border-radius: 15px;
+  }
+
+html, body {
+    margin:0;
+    padding:0;
+  }
+
+.headertitle {
+    text-shadow: 0px 0px 12px black;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Permanent Marker', serif;
 }
 
-.html {
-    width: 3%;
+.userprofile {
+    text-shadow: 0px 0px 12px black;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #031545;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 12px black;
+}
+
+.comingsoonbox {
+    text-shadow: 0px 0px 12px black;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #031545;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 12px black;
 }
 
 .progresses {
+    text-shadow: 0px 0px 12px black;
+    color: #f2f2f2;
     text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #68b9fb;
-    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1px;
 }
 
-.LoginTitle {
+.devmessage {
+    text-shadow: 0px 0px 12px black;
+    color: #f2f2f2;
     text-align: center;
-    color: #68b9fb;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1px;
 }
 
-.SignupTitle {
+.box1 {
+    text-shadow: 0px 0px 12px black;
+    color: #f2f2f2;
     text-align: center;
-    color: #68b9fb;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #031545;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 12px black;
 }
-
-#username,
-.username {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-#password,
-.password {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-#email,
-.email {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.loginbutton {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.signupbutton {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.hometitle {
-    text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #68b9fb;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 50px;
-}
-
-.homemotto {
-    text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;
-    color: #68b9fb;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 30px;
-}
-
-.discordbutton {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-.cardbutton {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    background-color: #68b9fb;
-    color: white;
-    padding: 1%;
-    color: black;
-    font-size: 20px;
-    border-radius: 15px;
-}
-
-hr.rounded {
-    border-top: 8px solid #68b9fb;
-    border-radius: 5px;
-  }
-
